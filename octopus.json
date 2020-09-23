@@ -90,21 +90,6 @@
             ]
         },
         {
-            "name": "themes/sunrise-theme",
-            "src": "http://github.com/privatesky/sunrise-theme.git",
-            "actions": [
-                {
-                    "type": "smartClone",
-                    "target": ".",
-                    "collectLog": false
-                },
-                {
-                    "type": "execute",
-                    "cmd": "cd themes/sunrise-theme && npm install"
-                }
-            ]
-        },
-        {
             "name": "themes/citrus-theme",
             "src": "http://github.com/privatesky/citrus-theme.git",
             "actions": [
