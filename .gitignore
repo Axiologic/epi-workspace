@@ -11,4 +11,5 @@ leaflet-ssapp/
 privatesky/
 themes/
 web-server/dsu-fabric
-web-server/web-wallet/loader
+web-server/*/loader
+web-server/*/wallet-template/seed
