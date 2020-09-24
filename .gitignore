@@ -2,3 +2,13 @@
 latest-change-set.txt
 node_modules
 seed
+cardinal/
+menu-wallet-prototype/
+dossier-explorer-wallet-prototype/
+gtin-resolver/
+gtin-wizard/
+leaflet-ssapp/
+privatesky/
+themes/
+web-server/dsu-fabric
+web-server/web-wallet/loader
