@@ -163,6 +163,36 @@
                     "cmd": "cd web-server/web-wallet/loader && npm install"
                 }
             ]
+        },
+        {
+            "name": "gtin-resolver",
+            "src": "https://github.com/Axiologic/gtin-resolver.git",
+            "actions": [
+                {
+                    "type": "smartClone",
+                    "target": ".",
+                    "collectLog": false
+                },
+                {
+                    "type": "execute",
+                    "cmd": "cd gtin-resolver && npm install"
+                }
+            ]
+        },
+        {
+            "name": "gtin-wizard",
+            "src": "https://github.com/Axiologic/gtin-wizard.git",
+            "actions": [
+                {
+                    "type": "smartClone",
+                    "target": ".",
+                    "collectLog": false
+                },
+                {
+                    "type": "execute",
+                    "cmd": "cd gtin-wizard && npm install"
+                }
+            ]
         }
     ],
     "build": [
