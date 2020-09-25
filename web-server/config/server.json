@@ -1,5 +1,22 @@
 {
   "port": 8080,
   "storage": "../web-server",
-  "preventRateLimit": true
+  "preventRateLimit": true,
+  "activeEndpoints": [
+    "virtualMQ",
+    "messaging",
+    "notifications",
+    "filesManager",
+    "bricksLedger",
+    "bricks",
+    "anchoring",
+    "dsu-wizard",
+    "gtin-wizard",
+    "staticServer"
+  ],
+  "endpointsConfig": {
+    "gtin-wizard": {
+      "module": "./../../gtin-wizard"
+    }
+  }
 }
