@@ -207,6 +207,16 @@
             ]
         },
         {
+            "name": "gtin-resolver-build",
+            "src": "",
+            "actions": [
+                {
+                    "type": "execute",
+                    "cmd": "cd gtin-resolver && npm run build"
+                }
+            ]
+        },
+        {
             "name": "citrus-theme-wallet-build",
             "src": "",
             "actions": [
