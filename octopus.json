@@ -262,34 +262,6 @@
             ]
         },
         {
-            "name": "dossier-explorer-wallet-prototype-build",
-            "src": "",
-            "actions": [
-                {
-                    "type": "execute",
-                    "cmd": "cd dossier-explorer-wallet-prototype && npm run build"
-                },
-                {
-                    "type": "copy",
-                    "src": "./dossier-explorer-wallet-prototype/seed",
-                    "target": "./web-server/web-wallet/wallet-template/seed",
-                    "options": {
-                        "overwrite": true
-                    }
-                }
-            ]
-        },
-        {
-            "name": "gtin-resolver-build",
-            "src": "",
-            "actions": [
-                {
-                    "type": "execute",
-                    "cmd": "cd gtin-resolver && npm run build"
-                }
-            ]
-        },
-        {
             "name": "citrus-theme-wallet-build",
             "src": "",
             "actions": [
@@ -316,6 +288,34 @@
                 {
                     "type": "execute",
                     "cmd": "cd themes/clear-sky-theme && npm run build-dossier"
+                }
+            ]
+        },
+        {
+            "name": "dossier-explorer-wallet-prototype-build",
+            "src": "",
+            "actions": [
+                {
+                    "type": "execute",
+                    "cmd": "cd dossier-explorer-wallet-prototype && npm run build"
+                },
+                {
+                    "type": "copy",
+                    "src": "./dossier-explorer-wallet-prototype/seed",
+                    "target": "./web-server/web-wallet/wallet-template/seed",
+                    "options": {
+                        "overwrite": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "gtin-resolver-build",
+            "src": "",
+            "actions": [
+                {
+                    "type": "execute",
+                    "cmd": "cd gtin-resolver && npm run build"
                 }
             ]
         },
