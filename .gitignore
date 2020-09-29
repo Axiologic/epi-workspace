@@ -3,6 +3,7 @@ latest-change-set.txt
 node_modules
 seed
 cardinal/
+dossier-explorer-ssapp/
 menu-wallet-prototype/
 dossier-explorer-wallet-prototype/
 gtin-resolver/
@@ -10,6 +11,10 @@ gtin-wizard/
 leaflet-ssapp/
 privatesky/
 themes/
+web-server/brick-storage
+web-server/config/confSeed
 web-server/dsu-fabric
+web-server/dossier-wizard-storage
+web-server/gtin-wizard-storage
 web-server/*/loader
 web-server/*/wallet-template/seed
